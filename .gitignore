@@ -6,3 +6,6 @@
 
 #diretorios de dependencia
 node_modules/
+
+# arquivo especifico com senha
+conexao.py
