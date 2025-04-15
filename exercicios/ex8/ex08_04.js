@@ -2,7 +2,11 @@
 // palavra em maiúsculas.
 const prompt = require('prompt-sync')()
 
-let animallist = ['gato', 'cachorro', 'passaro', 'peixe']
-for(let animal of animallist){
-    console.log(animal)
+let palavras = 'gato, cachorro, passaro, peixe'
+let listapalavras = palavras.toUpperCase(',')
+for(let palavras of listapalavras){
+    console.log(palavras)
 }
+
+
+
