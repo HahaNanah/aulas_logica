@@ -4,4 +4,4 @@ function divisao(n1, n2){
     let resul = n1/ n2
     console.log(resul)
 }
-console.log(divisao(10, 5))
+divisao(10, 5)

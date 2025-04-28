@@ -3,21 +3,25 @@
 const prompt = require('prompt-sync')()
 
 function calcular(num1, num2, operador) {
-    if (operador === '+') {
-        return num1 + num2;
+     if (operador === '+') {
+        console.log(`${num1} + ${num2} = ${num1} + ${num2}`)
     }
-    if (operador === '-') {
-        return num1 - num2;
+    else if (operador === '-') {
+            console.log(`${num1} - ${num2} = ${num1} - ${num2}`)
     }
-    if (operador === '*') {
-        return num1 * num2;
+    else if (operador === '*') {
+        console.log(`${num1} * ${num2} = ${num1} * ${num2}`)
     }
-    if (operador === '/') {
-        return num1 / num2;
+    else if (operador === '/') {
+        console.log(`${num1} / ${num2} = ${num1} / ${num2}`)
     }
-    if (operador === '**') {
-        return num1 ** num2;
+    else if (operador === '**') {
+        console.log(`${num1} ** ${num2} = ${num1} ** ${num2}`)
     }
-}
-console.log(calcular(2, 5, '+'));  // 7
-console.log(calcular(10, 2, '/')); // 5
+} 
+calcular(4, 2, '/')
+calcular(5, 2, '*')
+calcular(2, 2, '**')
+calcular(5, 5, '+')
+calcular(10, 5, '-')
+
