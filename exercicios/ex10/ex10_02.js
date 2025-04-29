@@ -10,3 +10,20 @@ function converte(valor){
 
 converte(500)
 //---------------------------------------------------------------------------//
+// correção //
+let cotacaodolar = 5.65;
+let cotacaoeuro = 6.64;
+
+function convertermoeda(valorreais){
+    let valoremdolar = valorreais / cotacaodolar;
+    let valoremeuro = valorreais / cotacaoeuro;
+
+    console.log(`R$ ${valorreais.toFixed(2)} equivale a:`)
+    console.log(`US$ ${valoremdolar.toFixed(2)}`)
+    console.log(`€ ${valoremeuro.toFixed(2)}`)
+
+}
+
+convertermoeda(100)
+convertermoeda(50)
+convertermoeda(10)
